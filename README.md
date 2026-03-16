@@ -30,21 +30,17 @@ System Architecture
 The proposed architecture consists of the following components:
 
 User Input (Video / Audio)
-        │
-        ▼
+        |
 Preprocessing Layer
-        │
-        ▼
+        |
 Deepfake Detection Module
-        │
-        ├── Facial Manipulation Detection
-        ├── Voice Forgery Detection
-        └── Liveness Detection
-        │
-        ▼
+        |
+        |-- Facial Manipulation Detection
+        |-- Voice Forgery Detection
+        |-- Liveness Detection
+        |
 Risk Scoring Engine
-        │
-        ▼
+        |
 Verification Dashboard
 
 Features
